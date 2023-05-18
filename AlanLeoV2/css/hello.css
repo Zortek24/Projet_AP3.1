@@ -1,0 +1,95 @@
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-top: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.warning {background-color: #ff9800;}
+
+
+.initbtn {
+   background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form {
+  width: 100%!important; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 40px;
+}
+
+/* Modal Content/Box */
+.form-content {
+  background-color: #fefefe;
+  margin: auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 10px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.container {
+  padding: 25px;
+}
+
+/* Table */
+table.edit {
+  border-collapse: collapse;
+  width: auto!important;
+  height: auto!important;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 2px solid black;
+}
+
+th{
+	background-color: #C0C0C0;
+}
+
+.td{
+  border: 1px solid black;
+}
+
+tbody{
+  border: 1px solid black;
+}
+table.edit {
+  width: auto;
+  height: auto;
+
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
